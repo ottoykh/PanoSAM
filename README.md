@@ -1,9 +1,14 @@
 ## PanoSAM: Unsupervised Segmentation Using the Meta Segment Anything Model for Point Cloud Data from Panoramic Images
 
-![PanoSAM Overview](https://raw.githubusercontent.com/ottoykh/PanoSAM/refs/heads/main/img/PanoSAM.jpg)
+![PanoSAM Overview](https://github.com/ottoykh/PanoSAM/blob/main/img/PanoSAM.jpg?raw=true)
 This is a prototype package designed as a proof of concept for the SAM model on panoramic image segmentation for close-range captured point clouds, such as those obtained from terrestrial laser scanners. This package facilitates users in performing unsupervised segmentation in a faster and more effective way.
 
 ### How to use (for E57 TLS data)
+#### All in one processing pipeline:
+```bash
+  python Pano.py "e57_file.e57"
+```
+#### Step by step base format: 
 1. To run the program, download the program file:
 ```bash
   cd program 
@@ -76,5 +81,5 @@ Calculate spherical coordinatesθ=arctan2(y/x)(azimuth angle)ϕ=arccos(z/r)
 
 
 ### Demonstration 
-![PanoSAM Demo1](https://raw.githubusercontent.com/ottoykh/PanoSAM/refs/heads/main/img/PanoSAM2.jpg)
-![PanoSAM Demo2](https://raw.githubusercontent.com/ottoykh/PanoSAM/refs/heads/main/img/PanoSAM3.jpg)
+![PanoSAM Demo1](https://github.com/ottoykh/PanoSAM/blob/main/img/PanoSAM2.jpg?raw=true)
+![PanoSAM Demo2](https://github.com/ottoykh/PanoSAM/blob/main/img/PanoSAM3.jpg?raw=true)
