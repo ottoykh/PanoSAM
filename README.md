@@ -6,7 +6,7 @@ This is a prototype package designed as a proof of concept for the SAM model on 
 ### How to use (for E57 TLS data)
 #### All in one processing pipeline:
 ```bash
-  python Pano.py "e57_file.e57"
+  python Pano.py -input_e57 "e57_file.e57"
 ```
 #### Step by step base format: 
 1. To run the program, download the program file:
